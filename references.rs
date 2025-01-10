@@ -6,7 +6,8 @@ fn main() {
 
     //println!("The rectangle's area is {:?}", area(rect1));
     println!("The rectangle's area is {:?}", area(&rect1));
-    
+
+    //use rect1 after area calc
     println!("The rectangle is {:?}", rect1);
 }
 
